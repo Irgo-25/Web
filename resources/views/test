@@ -1,0 +1,64 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "blade.format.enable": true
+  },
+  "workbench.colorTheme": "SynthWave '84",
+  "liveServer.settings.donotVerifyTags": true,
+  "prettier.printWidth": 240,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.fontFamily": "Fira Code,FiraCode-Retina",
+  "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "300", // Light
+  "editor.fontWeight": "400", // Regular
+  "editor.fontWeight": "450", // Retina !! Only works with FiraCode-VF.ttf installed, see below when using separated font files (the normal case).
+  "editor.fontWeight": "500", // Medium
+  "editor.fontWeight": "600", // Bold
+  "files.associations": {
+    "*.php": "php"
+  },
+  "codesnap.containerPadding": "0,5em",
+  "git.enableSmartCommit": true,
+  "artisan.location": "",
+  "emmet.triggerExpansionOnTab": true,
+  "tailwindCSS.experimental.classRegex": [],
+  "tailwindCSS.emmetCompletions": true,
+  "editor.inlineSuggest.enabled": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist"
+  ],
+  "[blade]": {
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+  }
+}
