@@ -1,26 +1,34 @@
-<aside id="sidebar" class=" max-w-xs h-screen fixed left-0">
-    <div class="h-full bg-yellow-600">
-        <ul class="space-y-2 inline-block m-3">
-            <li class="max-w-md py-5 bg-yellow-400 rounded-xl">
-                <a href="" class="flex items-center text-gray-900 ">
-                    <span class="text-lg">Beranda</span>
+<aside id="sidebar"
+    class="fixed top-0 left-0 z-40 w-64 h-screen pt-16 transition-transform -translate-x-full sm:translate-x-0"
+    aria-label="defaultsidebar">
+    <div class="h-full bg-sky-600 overflow-y-auto px-3 pb-4">
+        <ul class="space-y-2 font-medium ">
+            <li>
+                <a href="" class="flex items-center text-gray-900 hover:bg-sky-700 rounded-md mt-2">
+                    <span class="m-2">Beranda</span>
                 </a>
             </li>
-            <li class="max-w-md px-28 py-5 bg-yellow-400 rounded-xl">
-                <a href="" class="flex items-center text-gray-900 ">
-                    <span class="">Barang</span>
+            <li>
+                <a href="" class="flex items-center text-gray-900 hover:bg-sky-700 rounded-md mt-2"">
+                    <span class=" m-2">Data Barang</span>
                 </a>
             </li>
-            <li class="max-w-md px-28 py-5 bg-yellow-400 rounded-xl">
-                <a href="" class="flex items-center text-gray-900 ">
-                    <span class="">Data</span>
+            <li>
+                <a href="" class="flex items-center text-gray-900 hover:bg-sky-700 rounded-md mt-2"">
+                    <span class=" m-2">Barcode</span>
                 </a>
             </li>
-            <li class="max-w-md px-28 py-5 bg-yellow-400 rounded-xl">
-                <a href="" class="flex items-center text-gray-900 ">
-                    <span class="">Makalah</span>
+            <li>
+                <a href="" class="flex items-center text-gray-900 hover:bg-sky-700 rounded-md mt-2"">
+                    <span class=" m-2">Laporan</span>
                 </a>
             </li>
+            <li>
+                <a href="" class="flex items-center text-gray-900 hover:bg-sky-700 rounded-md mt-2"">
+                    <span class=" m-2">Jurnal</span>
+                </a>
+            </li>
+
         </ul>
     </div>
 </aside>
