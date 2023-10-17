@@ -16,8 +16,9 @@
     </nav>
     {{-- End Header --}}
     {{-- Sidebar in partials Folder --}}
-    <aside id="sidebar" class="fixed top-0 left-0 bg-[#EE9322] w-44 z-40 h-screen pt-20 transition-transform -translate-x-full sm:translate-x-0" aria-label="logo-sidebar">
+    <aside id="sidebar" class="fixed top-0 left-0 bg-[#f5d985] w-44 z-40 h-screen pt-20 transition-transform -translate-x-full sm:translate-x-0 border-2 border-solid border-[#E9B824] rounded-md" aria-label="logo-sidebar">
         @include('partials.sidebar')
+   
     </aside>
     {{-- End Sidebar --}}
 
